@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Advanced CSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200..900;1,200..900&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..900;1,200..900&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="rpg-awesome/css/rpg-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <!-- Off-canvas navigation -->
+    <input type="checkbox" name="nav" class="nav-check" id="off-canvas">
+    <label rel="navigation" class="navicon" for="off-canvas"></label>
+    <nav class="site-navigation" role="navigation">
+        <h2 class="nav-title">portofolio Contents</h2>
+        <div class="tabs">
+            <div class="tab">
+                <input type="checkbox" id="chck0">
+                <label class="tab-label" for="chck0">0: Carrer Objective</label>
+                <div class="tab-content">
+
+                </div>
+            </div>
+            <div class="tab">
+                <input type="checkbox" id="chck1">
+                <label class="tab-label" for="chck1">1: Personal Details</label>
+                <div class="tab-content">
+                    <ol>
+                        <li>Name</li>
+                        <li>Address</li>
+                        <li>DOB</li>
+                        <li>Gender</li>
+                        <li>Nationality</li>
+                        <li>Contact</li>
+                        <li>Email</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="tab">
+                <input type="checkbox" id="chck2">
+                <label class="tab-label" for="chck2">2: Programming Languages</label>
+                <div class="tab-content">
+                    <ol>
+                        <li>C</li>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="tab">
+                <input type="checkbox" id="chck3">
+                <label class="tab-label" for="chck3">3: Testing Tools</label>
+                <div class="tab-content">
+                    <ol>
+                        <li>Manual Testing</li>
+                        <li>Api Testing</li>
+                        <li>Selenium Automation</li>
+                        <li>Jira Board</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="tab">
+                <input type="checkbox" id="chck4">
+                <label class="tab-label" for="chck4">4: Internship Details</label>
+                <div class="tab-content">
+                    <ol>
+                        <li>Resolute AI</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="tab">
+                <input type="checkbox" id="chck5">
+                <label class="tab-label" for="chck5">5: Personality Traits</label>
+                <div class="tab-content">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Site Content -->
+    <main class="site-main">
+
+        <!-- Site Header (Top bar) -->
+        <header class="top-bar">
+            <div class="left">
+                <p>Haradeep presents</p>
+            </div>
+            <div class="center">
+                <p>A portofolio by <a href="">Haradeep Subhash</a></p>
+            </div>
+            <div class="right">
+                <nav class="social-navigation" role="navigation" aria-label="Social Links Menu">
+                    <div class="menu-social-menu-container">
+                        <ul id="menu-social-menu" class="social-links-menu">
+                            <li id="menu-item-1" class="menu-item menu-item-1">
+                                <a href="https://facebook.com">
+                                    <span class="screen-reader-text">Facebook</span>
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li id="menu-item-2" class="menu-item menu-item-2">
+                                <a href="https://twitter.com">
+                                    <span class="screen-reader-text">Twitter</span>
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li id="menu-item-3" class="menu-item menu-item-3">
+                                <a href="https://youtube.com">
+                                    <span class="screen-reader-text">YouTube</span>
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li id="menu-item-4" class="menu-item menu-item-4">
+                                <a href="https://linkedin.com">
+                                    <span class="screen-reader-text">Linked In</span>
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="site-title">
+                    <span>H</span><span>A</span><span>R</span><span>A</span><span>D</span><span>E</span><span>E</span><span>P</span><span
+                        class="⚡️">
+                    </span><span>S</span><span>U</span><span>B</span><span>H</span><span>A</span><span>S</span><span>H</span>
+                </h1>
+                <div class="site-under-title">
+                    <p class="site-subtitle">Haradeep's portofolio</p>
+                    <small class="site-host">Created by <a href="">Haradeep Subhash</a> &amp; Hosted by <a
+                            href="">Haradeep</a></small>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="content-box">
+                <h2 class="sub-section-title">
+                    Hi, I am Hara
+                </h2>
+                <img class="profile-pic" alt="picture of Hara" src="img/DSC_0013.jpg" width="140" />
+                <p class="about-text"><strong>
+                        <a href="">Haradeep Subhash</a>
+                    </strong>is a fresher web developer and educator in ESL and computer technology.
+                    He holds a Bachelor's degree in Electronics, e-degree in full-stack development, and professional
+                    certifications for React
+                    (JavaScript) development. I am passionate about
+                    learning new technologies and discover
+                    the joys of technology.</p>
+            </div>
+        </section>
+        <!-- Course Sections-->
+        <section class="content course-details">
+            <div class="class-section-grid">
+                <article class="class-section section-zero first-chapter">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <h4 class="sub-section-title white">
+                                    <i class="ra ra-perspective-dice-random"></i>Carrer Objective</h4>
+                                <p>To be part of an organization where I can fully utilize my skills in programming
+                                    languages to make a significant contribution to a success of employee, while at the
+                                    same time pursuing my individual growth. I am fluent in English with excellent
+                                    communication and interpersonal skills. A fast learner with strong time management
+                                    and multitasking skills. I am a strong work ethic in team. I have strong
+                                    troubleshooting and problem-solving skills with analytical mindset.
+                                </p>
+                            </div>
+                            <div class="card-face card-back">
+                                <h4 class="sub-section-title white">View Slides</h4>
+                                <img class="course-slides" src="img/DSC_0013.jpg" alt="Slides Img" />
+                                <a class="btn" href="">Slides</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="class-section section-one">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <h4 class="sub-section-title white">
+                                    <i class="ra ra-perspective-dice-one"></i>
+                                    Personal Details
+                                </h4>
+                                <p>Flip the card to view all the personal deatils</p>
+                            </div>
+                            <div class="card-face card-back">
+                                <h4 class="sub-section-title white"></h4>
+                                <ol>
+                                    <li><strong>Name:</strong> Vaddi Sri Haradeep Subhash</li>
+                                    </br>
+                                    <li><strong>Address:</strong> 2-18-15/9, flat no T2, Surya Kamal apartments, Near SP
+                                        office, Madhava
+                                        Nagar</li>
+                                    </br>
+                                    <li> <strong>Date of Birth: </strong> 30th August 1998</li>
+                                    </br>
+                                    <li><strong> Gender:</strong> Male</li>
+                                    </br>
+                                    <li><strong>Nationality:</strong> Indian</li>
+                                    </br>
+                                    <li><strong>Contact Number:</strong> 8074059</li>
+                                    </br>
+                                    <li><strong>Email:</strong> haradeepvaddi@gmail.com</li>
+                                </ol>
+
+                                <a class="btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="class-section section-two">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <h4 class="sub-section-title white">
+                                    <i class="ra ra-perspective-dice-two"></i>
+                                    Technical Qualification On Programming Languages </h4>
+
+                            </div>
+                            <div class="card-face card-back">
+                                <h4 class="sub-section-title white">View Details</h4>
+                                <ol>
+                                    <p>C language, Html, Css, JavaScript, Python</p>
+
+                                </ol>
+
+                                <a class="btn">view Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="class-section section-three">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <h4 class="sub-section-title white">
+                                    <i class="ra ra-perspective-dice-two"></i>
+                                    Technical Qualification On Testing Tools
+                                </h4>
+
+                            </div>
+                            <div class="card-face card-back">
+                                <h4 class="sub-section-title white"></h4>
+                                <p>Manual Testing, Selenium Automation Using Python, API Testing Using Postman, Test
+                                    Case Documentation, Jira Board
+                                </p>
+                                <a class="btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="class-section section-four">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <h4 class="sub-section-title white">
+                                    <i class="ra ra-perspective-dice-four"></i>
+                                    Internship Details:
+                                </h4>
+                            </div>
+                            <div class="card-face card-back">
+                                <h4 class="sub-section-title white"></h4>
+                                <p>Worked as a intern in ResoluteAI company in the Testing team as an Manual, API and
+                                    Automation tester. Worked on a complete API testing with Postman for a project
+                                    Facegini and done a manual testing for Facegini and Simpliwow projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="class-section section-five">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <h4 class="sub-section-title white">
+                                    <i class="ra ra-perspective-dice-five"></i>
+                                    Personal Traits:
+                                </h4>
+
+                            </div>
+                            <div class="card-face card-back">
+                                <h4 class="sub-section-title white"></h4>
+                                <p>Motivated, Hardworking, Dedicated, Fast Learner</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="class-section section-six final-chapter">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <h4 class="sub-section-title white">
+                                    <i class="ra ra-perspective-dice-six"></i>
+                                    Educational Details
+                                </h4>
+                                <p><strong>SSC</strong></p>
+                                <ol>
+                                    <li><strong>Name of Institute:</strong> Dr KKR'S Gowtham Concept School</li>
+                                    <li><strong>Academic Year:</strong> 2012 - 2013 </li>
+                                    <li><strong>Percentage:</strong> 90%</li>
+                                </ol>
+                                <p><strong>Intermediate</strong></p>
+                                <ol>
+                                    <li><strong>Name of Institute:</strong> Sri Chaitanya Junior Kalasala</li>
+                                    <li><strong>Academic Year:</strong> 2013 - 2015</li>
+                                    <li><strong>Percentage:</strong> 78.4%</li>
+                                    </strong>
+                                </ol>
+                            </div>
+                            <div class="card-face card-back">
+                                <p><strong>Graduation</strong></p>
+                                <ol>
+                                    <li><strong>Name of Institute:</strong>
+                                        P R Government Degree College</li>
+                                    <li><strong>Academic Year:</strong>
+                                        2018 - 2021</li>
+                                    <li><strong>Percentage:</strong>
+                                        :72.4%</li>
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- Site Footer -->
+        <footer class="site-footer">
+            <h2 class="sub-section-title">Vaddi Sri Haradeep Subhash</h2>
+            <div class="copyright">
+                &copy; 2021 Haradeep Subhash
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
